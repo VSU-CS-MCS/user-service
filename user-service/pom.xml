@@ -12,7 +12,7 @@
 	<artifactId>user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>user-service</name>
-	<description>Recommendation system</description>
+	<description>A service to auth user and initiate a voting</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
