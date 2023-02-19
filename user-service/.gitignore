@@ -1,5 +1,0 @@
-build/
-!**/src/main/**/build/
-bin/
-!**/src/main/**/bin/
-.idea
