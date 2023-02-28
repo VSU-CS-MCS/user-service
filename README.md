@@ -3,7 +3,7 @@
 ---
 
 ## 1. The user installs the extension based on the recommendation of movies.
-## 2. After that, he must sign in.
+## 2. Sign in.
     Fields required to fill in:
       - Name
       - Surname
