@@ -28,3 +28,12 @@ public class SpringFoxConfig {
 @EnableSwagger2
 public class SpringFoxConfig {                                    
 }
+
+@Override
+public void addResourceHandlers(ResourceHandlerRegistry registry) {
+    registry.addResourceHandler("swagger-ui.html")
+      .addResourceLocations("classpath:/META-INF/resources/");
+
+    registry.addResourceHandler("/webjars/**")
+      .addResourceLocations("classpath:/META-INF/resources/webjars/");
+}
